@@ -1,0 +1,740 @@
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen&family=Roboto:ital,wght@0,400;1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/* Icone à droite */
+.nav{
+    background-color: #a4c639;
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    align-items: center;
+}
+.nav .icones, .icone{
+    display: flex;
+    margin-right: 30px;
+    
+}
+
+i{
+    margin-right: 20px;
+    color: white;
+}
+
+/* Icone à GAUCHE */
+.icone{
+    margin-left: 100px;
+}
+.icone p i{
+   margin-left: 40px;
+}
+.icone p{
+    color: white;
+}
+/* Debut de l'entête */
+header{
+    background-image: url(../images/slide_03.jpg);
+    height: 500px;
+    
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    
+   
+}
+.container h2{
+    color: white;
+       
+}
+.container .onglets a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: white;
+    font-size: 1.1em;
+}
+
+.onglets a:hover{
+    color: #a4c639;
+    text-decoration: underline #a4c639;
+}
+header .title{
+    margin-left: 100px;
+}
+.title h4{
+    color: #a4c639;
+    font-size: 1.2em;
+}
+.title h1{
+    font-size: 2.5em;
+    color: white;
+    max-width: 400px;
+    margin-top: 10px;
+}
+.title p{
+    color: white;
+    margin-top: 30px;
+}
+header button{
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    background-color: #a4c639;
+    border: none;
+    color: white;
+    margin-top: 10px;
+}
+button:hover{
+    background-color: white;
+    color: #a4c639;
+}
+/* Fin de l'entête */
+/* Bloc 2 */
+.code{
+    background-color: #a4c639;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+
+}
+.code .cod h4{
+    font-size: 1.2em;
+}
+.cod{
+    
+    color: white;
+}
+.code button{
+    padding: 10px 30px 10px 30px;
+    background-color: #a4c639;
+    border-radius: 50px;
+    border: 2px solid white;
+    margin-right: 40px;
+    color: white;
+}
+button:hover{
+    background-color: white;
+    color: #a4c639;
+}
+/* Fin Bloc 2 */
+
+/* debut du BLOC 3 */
+.main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.main h3{
+    text-align: center;
+   margin-top: 70px;
+   font-size: 2em
+}
+
+.main .page{
+    text-align: center;
+    margin-top: 10px;
+}
+.main .cards{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+    padding: 0px 70px 0px 70px;
+}
+span{
+    color: #a4c639;
+}
+.main .card{
+    width: 300px;
+    height: 430px;
+    background-color: #f7f7f7;
+}
+.card img{
+    width: 300px;
+    
+}
+.card h4{
+    font-size: 1.2em;
+}
+.card p{
+    margin-top: 10px;
+}
+.card .titre{
+    margin-left: 30px;
+    margin-top: 33px;
+}
+.card button{
+    padding: 10px 30px 10px 30px;
+    border-radius: 50px;
+    border: none;
+    margin-top: 20px;
+    background-color: #a4c639;
+    color: white;
+}
+.card button:hover{
+        background-color: white;
+        color: #a4c639;
+}
+/* Fin du BLOC 3 */
+
+/* Debut bloc 4 */
+.container3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.container2{
+    display: flex;
+    justify-content: space-between;
+    background-image: url(../images/fun-facts-bg1.jpg);
+    padding: 80px;
+    margin-top: 90px;
+    background-attachment: fixed;
+}
+.containe2{
+    color: white;
+}
+.containe2 h1{
+    max-width: 320px;
+    font-size: 2em;
+    margin-top: 20px;
+}
+.containe2 p{
+    margin-top: 20px;
+}
+button{
+    padding: 10px 30px 10px 30px;
+    border-radius: 50px;
+    border: none;
+    margin-top: 20px;
+    background-color: #a4c639;
+    color: white;
+}
+.sous-container1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.sous-container2{
+    display: flex;
+    justify-content: space-evenly; 
+}
+    
+.sous p, .h1{
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
+    padding-top: 20px;
+}
+.sous{
+    width: 200px;
+    height: 140px;
+    background-color: #3f3f3f;
+    margin-right: 50px;
+   
+}
+.sous-container1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+/* Fin bloc 4 */
+
+/* Debut du bloc 5 */
+.mains{
+   
+   
+    
+}
+.mains .sous-main2{
+    background-color: #f7f7f7;
+    height: 400px;
+    width: 970px;
+    display: flex;
+    justify-content: center;
+    margin: 130px auto;
+    
+    
+}
+.sous-main1{
+    padding: 20px;
+}
+
+.mains img{
+    width: 400px;
+    
+}
+.mains .sous-main2 h1{
+    font-size: 2em;
+    max-width: 320px;
+    margin-top: 10px;
+}
+.mains .sous-main2 p{
+    margin-top: 20px;
+}
+
+/* Fin du bloc 5 */
+
+/* debuit du bloc 6 */
+.top{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #f7f7f7;
+    padding: 50px auto;
+    height: 500px;
+   
+}
+.top h1{
+    margin-bottom: 20px;
+    margin-top: -40px;
+    font-size: 2em;
+}
+.top2 p, h4{
+    margin-top: 10px;
+}
+.top1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}   
+.top2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 140px;
+    background-color: white;
+    padding: 10px;
+}
+/* Fin du bloc 6 */
+
+/* debut du bloc 7 */
+.contacts{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 80px;
+    text-align: center;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-color: #a4c639;
+    height: 300px;
+    padding: 40px;
+    
+    border-radius: 5px;
+}
+.contacts p{
+    margin-bottom: 25px;
+}
+.contacts h1{
+    margin-bottom: 25px;
+    font-size: 2em;
+}
+.contact .sous-contact{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.contact .sous-contact input{
+   padding: 10px;
+   border-radius: 50px;
+   border: none;
+   margin-bottom: 50px;
+  padding-right: 30px;
+  outline: none;
+}
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.contact form textarea{
+    border: none;
+    border-radius: 7px;
+    height: 100px;
+    outline: none;
+    width: 650px;
+    
+}
+.contacts .contact button{
+   width: 190px;
+    padding: 15px;
+    border: 1px solid white;
+}
+
+/* FIN du bloc 7 */
+/* Debut du bloc 9 */
+.photo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #f7f7f7;
+    height: 140px;
+
+}
+.photo img{
+    height: 40px;
+}
+/* FIN du bloc 9 */
+
+
+/* Debut pied */
+.pieds{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #000;
+    padding: 30px;
+}
+.pied h4{
+    margin-bottom: 30px;
+    color: white;
+    font-size: 1.3em;
+}
+.pied p, a{
+    margin-top: 20px;
+    color: white;
+    text-decoration: none;
+
+}
+.pied a:hover{
+    color: #a4c639;
+}
+.pieds .pied i{
+   padding: 8px;
+    background-color: white;
+    border-radius: 100%;
+    color: black;
+   text-align: center;
+   margin-top: 40px;
+}
+.pieds .pied i:hover{
+    background-color: #a4c639;
+}
+.pieds .pied input{
+    padding: 10px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: #3f3f3f;
+}
+.pieds .pied textarea{
+    background-color: #3f3f3f;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    height: 100px;
+    width: 192px;
+}
+
+.pieds .pied button{
+    width: 110px;
+    
+}
+
+.footer{
+    background-color: #3f3f3f;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Fin pied */
+
+/* Debut du deuxième page */
+.entete{
+    background-image: url(../images/page-heading-bg.jpg);
+    height: 400px;
+    
+}
+.entete .container{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+      
+}
+.entete .texte{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    color: white;
+   
+}
+.entete .texte h1{
+    font-size: 2.5em;
+}
+.entete .texte p{
+    margin-top: 20px;
+}
+
+/* Debut du bloc 2 */
+
+.mains .sous-mains2{
+    
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+
+}
+
+.mains img{
+    width: 500px;
+}
+.mains .sous-mains2 h1{
+    font-size: 2em;
+    max-width: 320px;
+    margin-top: 10px;
+}
+.mains .sous-mains2 p{
+    margin-top: 20px;
+}
+
+/* Fin du bloc 2 */
+
+/* Debut du bloc 3 */
+
+.maine{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f7f7f7;
+    padding-bottom: 60px;
+    
+}
+.maine h3{
+    text-align: center;
+   margin-top: 70px;
+   font-size: 2em
+}
+
+.maine .page{
+    text-align: center;
+    margin-top: 10px;
+}
+.maine .cards{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+    padding: 0px 70px 0px 70px;
+}
+span{
+    color: #a4c639;
+}
+.maine .card{
+    width: 300px;
+    height: 430px;
+    background-color: #ffffff;
+    padding-bottom: 20px;
+}
+.card img{
+    width: 300px;
+    
+}
+.card h4{
+    font-size: 1.2em;
+}
+.card p{
+    margin-top: 10px;
+}
+.card .titre{
+    margin-left: 30px;
+    margin-top: 33px;
+}
+.card button{
+    padding: 10px 30px 10px 30px;
+    border-radius: 50px;
+    border: none;
+    margin-top: 20px;
+    background-color: #a4c639;
+    color: white;
+}
+.card button:hover{
+        background-color: white;
+        color: #a4c639;
+}
+
+/* Fin du bloc 3 */
+
+
+/* Fin du deuxième page */
+
+/*  Debut PAGES SERVICE */
+
+/* debut bloc 2 */
+.maines{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 60px 90px auto;   
+}
+.sous-maine2{
+    
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.sous-maine2 img{
+    width: 600px;
+}
+.buttoms{
+    margin-top: 30px;
+}
+.buttoms .buttom{
+    height: 70px;
+    width: 280px;
+    background-color: #a4c639;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    cursor: pointer;
+
+}
+.buttoms .buttom h4{
+   font-size: 1.1em;
+   margin-bottom: 35px;
+}
+.maines .sous-maine2 p{
+   margin-top: 20px; 
+   
+}
+hr{
+    margin-top: 200px;
+    background-color: #3F3F3F;
+    
+}
+
+
+
+/* Fin bloc 2 */
+
+/*  Fin PAGES SERVICE */
+
+/* Debut pages contact */
+
+/* Debut Bloc 2 */
+.mainse{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+        
+}
+
+.mainse .cards{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin: 100px 50px auto;
+    
+    margin-bottom: 100px;
+}
+.mainse .card{
+    width: 300px;
+    height: 300px;
+    background-color: #f7f7f7;
+   
+}
+.mainse .card i{
+    color: #a4c639;
+    font-size: 40px;
+    margin-top: 50px;
+}
+.card h4{
+    font-size: 1.2em;
+   margin-right: 40px;
+}
+.card p{
+    margin-right: 10px;
+}
+.card .titre{
+    
+    margin-top: 33px;
+}
+/* FIN Bloc 2 */
+
+/* Debut Bloc 3 */
+
+
+.contactes{
+    display: flex;
+    justify-content: center;
+    
+    flex-direction: column;
+    padding: 80px;
+    text-align: center;
+    background-color: #f7f7f7;
+}
+
+.contacte{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 300px;
+    border-radius: 5px;
+    
+}
+.contactes p{
+    margin-bottom: 25px;
+}
+.contactes h1{
+    margin-bottom: 25px;
+    font-size: 2em;
+    margin-top: 50px;
+}
+.contacte .sous-contact{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.contacte .sous-contact input{
+   padding: 10px;
+   border-radius: 50px;
+   border: none;
+   margin-bottom: 50px;
+  padding-right: 70px;
+  outline: none;
+}
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.contacte form textarea{
+    border: none;
+    border-radius: 7px;
+    height: 100px;
+    outline: none;
+    width: 900px;
+    margin-left: 90px;
+}
+.contactes .contacte button{
+     width: 190px;
+    margin-left: 400px;
+    padding: 15px;
+    border: 1px solid white;
+}
+
+/* FIN Bloc 3 */
+
+/* Fin pages contact */
+

@@ -1,0 +1,372 @@
+@media screen and (max-width: 780px) {
+   
+     /* Debut menu */
+     .onglets{
+        display: none;
+    }
+    .icones, .icone{
+        display: none;
+    }
+    /* Fin menu */
+    /* Debut de l"entete */
+    header{
+        height: 640px;   
+    }
+    
+    .container h2{
+        color: white;
+        font-size: 20px;
+        
+        
+    }
+    
+    /* Fin de l'entete */
+
+    /* Bloc 1 */
+    header .title{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 50px;
+        font-size: -20px;
+        
+        
+    }
+    .title button{
+        width: 180px;
+        
+    }
+    .title h4{
+        color: #a4c639;
+        font-size: 1.1em;
+    }
+    .title h1{
+        font-size: 2em;
+        color: white;
+        max-width: 400px;
+        margin-top: 10px;
+    }
+    .title p{
+        color: white;
+        margin-top: 30px;
+    }
+    /* Fin Bloc 1 */
+
+    /* Bloc 2 */
+    .code{
+        
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .cod{
+        text-align: center;
+        
+    }
+
+
+    .code button{
+        margin: 20px auto;
+    }
+    /* Fin Bloc 2 */
+
+    /* debut du BLOC 3 */
+    .main{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main h3{
+        text-align: center;
+    margin-top: 70px;
+    font-size: 1.2em
+    }
+
+    .main .page{
+        text-align: center;
+        font-size: 13px;
+
+    }
+    .main .cards{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 80px;
+    
+    }
+    .card{
+        margin-top: 20px;
+    }
+
+    
+    .card h4{
+        font-size: 1.2em;
+    }
+    .card button{   
+        margin-top: 10px;  
+    }
+    
+    /* Fin du BLOC 3 */
+
+    /* Debut bloc 4 */
+    .container3{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+    .container2{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: -40px;
+       
+    }
+
+    .containe2 h1{
+        max-width: 320px;
+        font-size: 2em;
+        margin-top: 20px;
+    }
+    .containe2 p{
+        margin-top: 20px;
+    }
+    button{
+        padding: 10px 30px 10px 30px;
+        border-radius: 50px;
+        border: none;
+        margin-top: 20px;
+        background-color: #a4c639;
+        color: white;
+    }
+    .sous-container1{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+    .sous-container2{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+        
+    .sous{
+    margin-top: 20px;
+    width: 250px;
+    
+    }
+    
+    /* Fin bloc 4 */
+
+    /* Debut du bloc 5 */
+    
+    .mains .sous-main2{
+        background-color: #f7f7f7;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        height: 700px;
+        width: 300px;
+        padding-bottom: 20px;
+        margin: 80px auto;
+        
+    }
+    .mains{
+        padding: 10px auto;
+        
+    }
+    .mains .sous-main1{
+        
+    }
+
+    .mains .sous-main2 img{
+       width: 100%;
+       
+    }
+    .mains .sous-main2 h1{
+        font-size: 1.4em;
+        max-width: 320px;
+        margin-top: 10px;
+    }
+    .mains .sous-main2 p{
+        margin-top: 20px;
+    }
+     button{
+        margin: 10px;
+    }
+
+    /* Fin du bloc 5 */
+    /* Debut du bloc 6 */
+    .top{
+        padding: 20px;
+    }
+    .top1{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        
+    }
+    .top2{
+        width: 300px;
+        
+        background-color: white;
+        padding: 10px;
+    }
+    .top2{
+        margin-top: 20px;
+    }
+    .top h1{
+        margin-bottom: 20px;
+        margin-top: 20px;
+        font-size: 1.4em;
+    }
+   
+    /* Fin du bloc 6 */
+    /* Debut du bloc 7 */
+    .contact .sous-contact{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    .contact{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        
+        text-align: center;
+        background-color: #a4c639;
+        
+       
+    }
+
+    .contacts{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        
+        
+        
+    }
+
+    .contacts h1{
+        margin-bottom: 25px;
+        font-size: 1.4em;
+    }
+    .contact .sous-contact input{
+        margin: 10px auto;
+        
+     }
+     .contact form textarea{
+        height: 90px;
+        width: 200px;
+        margin: 30px auto;
+        
+    }
+    .contacts .contact button{
+        width: 170px;
+        margin: 0px 30px auto;
+    }
+    
+    /* Fin du bloc 7 */
+    
+    /* Debut pied */
+    .pieds{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px;
+        background-color: #000;
+        padding: 30 px;
+    }
+    
+    .pied{
+        margin-top: 20px;
+    }
+    
+    /* FIN pied */
+
+    /* Debut Deuxième page */
+
+    .texte h1, p{
+        font-size: 0.9em;
+        
+    }
+
+    /* Debut bloc 2 */
+    .sous-mains2{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+    .sous-mains2 img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .sous-mains2 h1{
+        font-size: 1.2em;
+    }
+
+    /* Fin bloc 2 */
+
+
+    /* Debut bloc 3 */
+    .maine .cards{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        
+        
+    }
+    .maine h3{
+        font-size: 1.6em;
+    }
+
+    /* Fin bloc 3 */
+
+    /* Debut pied de page */
+    .footer p{
+        text-align: center;
+    }
+    /* Fin pied de page */
+
+    /* Fin Deuxième page */
+
+    /* Debut Troisième page */
+
+    /* Debut bloc 2  */
+
+    .maines{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .maines img{
+        width: 300px;
+    }
+    .sous-maine2{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 50px;
+        width: 300px;
+    }
+    /* Fin bloc 2  */
+    /* Fin Troisième page */
+}
